@@ -20,11 +20,14 @@ A CLI tool that uses GPT via OpenRouter API to:
 ### 🚀 Setup Instructions
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/DevAssistantAI.git
+   git clone https://github.com/NickyIm04020/DevAssistantAI.git
    cd DevAssistantAI
 
 2. Add your OpenRouter API key:
-   export OPENROUTER_API_KEY="your_api_key_here"
+   ```bash
+   export OPENROUTER_API_KEY="YOUR_API_KEY"
+   mvn clean compile exec:java -Dexec.mainClass="com.devassistant.Main"
 
 3. Build & Run:
+    ```bash
    mvn clean compile exec:java -Dexec.mainClass="com.devassistant.Main"
