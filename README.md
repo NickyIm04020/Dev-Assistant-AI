@@ -21,7 +21,7 @@ A CLI tool that uses GPT via OpenRouter API to:
 1. Clone the repo:
    ```bash
    git clone https://github.com/NickyIm04020/DevAssistantAI.git
-   cd DevAssistantAI
+   cd Dev-Assistant-AI
 
 2. Add your OpenRouter API key:
    ```bash
