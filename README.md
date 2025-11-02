@@ -26,7 +26,6 @@ A CLI tool that uses GPT via OpenRouter API to:
 2. Add your OpenRouter API key:
    ```bash
    export OPENROUTER_API_KEY="YOUR_API_KEY"
-   mvn clean compile exec:java -Dexec.mainClass="com.devassistant.Main"
 
 3. Build & Run:
     ```bash
